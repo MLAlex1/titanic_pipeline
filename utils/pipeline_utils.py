@@ -3,9 +3,7 @@ import sklearn.linear_model
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.utils.metaestimators import _BaseComposition
 from sklearn.impute import SimpleImputer
-from sklearn.feature_selection import VarianceThreshold
 from sklearn.pipeline import Pipeline, FeatureUnion
-from sklearn.model_selection import train_test_split
 
 import numpy as np
 import pandas as pd
